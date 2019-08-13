@@ -153,15 +153,29 @@
             margin-top: 6px;
             margin-bottom: 20px;
             z-index: 5;
+
+            width: 127px;
+            height: 47px;
+            /* font-family: SpoqaHanSans; */
+            font-size: 32px;
+            font-weight: 300;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: -0.3px;
+            text-align: center;
+            color: var(--dark);
+
+
         }
 
         .section__bullet {
-            margin-top: 40px;
+            margin-top: 0px;
             z-index: 5;
         }
 
         .header__logo {
-            margin: 14px 0px 9px 16px;
+            margin: 19px 0px 9px 40px;
         }
 
         .header__hamburger {
@@ -210,7 +224,10 @@
         }
 
         .sidebar__header__logo {
-            margin: 14px 0px 9px 16px;
+            /* margin: 14px 0px 9px 16px; */
+            width: 77px;
+            height: 49px;
+            object-fit: contain;
         }
 
         .sidebar__header__close {
@@ -241,6 +258,7 @@
         }
 
         .slogan__section {
+
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -249,15 +267,26 @@
             height: 470px;
             margin-top: -58px;
             position: relative;
-            background: linear-gradient(149deg, #c2f52a, #2af598 21%, #008cfd);
+            
+            background: linear-gradient(149deg, #2e2b9b, #2e2b9b 21%, #2e2b9b); 
+            /*
+            background: linear-gradient(149deg, #c2f52a, #2af598 21%, #008cfd); 
+            background-color: var(--sapphire);
+            width: 1280px; 
+            */
+            height: 680px;
+            
+
         }
 
         .slogan__section__background {
+
             width: 330px;
             height: 470px;
             position: absolute;
             top: 0;
             left: 0;
+
         }
 
         .slogan__section__bottom__background {
@@ -273,12 +302,14 @@
                 display: block;
                 position: absolute;
                 bottom: 0;
+                left: 232px;
             }
 
             .slogan__section__right__background {
                 display: block;
                 position: absolute;
                 right: 0;
+                top: 144px;
             }
         }
 
@@ -289,7 +320,7 @@
 
         .slogan__section__divider {
             position: absolute;
-            top: 256px;
+            top: 370px;
             width: 20px;
             height: 2px;
             background-color: #ffffff;
@@ -297,16 +328,16 @@
 
         .slogan__section__date {
             position: absolute;
-            top: 274px;
-            font-size: 18px;
+            top: 388px;
+            font-size: 28px;
             font-weight: 900;
             color: #ffffff;
         }
 
         .slogan__section__location {
             position: absolute;
-            top: 311px;
-            font-size: 16px;
+            top: 437px;
+            font-size: 24px;
             color: #ffffff;
             margin-top: 5px;
         }
@@ -809,9 +840,9 @@
 <header>
     <a href="index.html">
         <amp-img class="header__logo"
-                 src="images/logo_mainbk.png"
-                 width="55px"
-                 height="35px"
+                 src="img/img-logo-wh.svg"
+                 width="77px"
+                 height="49px"
                  layout="fixed">
         </amp-img>
     </a>
@@ -833,12 +864,8 @@
              layout="nodisplay"
              side="right">
     <div class="sidebar__header">
-        <amp-img class="sidebar__header__logo"
-                 src="images/logo_mainbk.png"
-                 width="55px"
-                 height="35px"
-                 layout="fixed">
-        </amp-img>
+        <amp-img class="sidebar__header__logo" 
+                 src="img/img-logo-wh.svg"></amp-img>
         <div></div>
         <div class="sidebar__header__close">
             <amp-img src="images/home_menu.svg"
@@ -863,36 +890,45 @@
 
 <div class="slogan__section">
     <amp-img class="slogan__section__background"
-             src="images/main-slogan-left-bg.png"
-             width="330"
-             height="470"
-             layout="fixed">
+
+        src="img/img-main-bg-key-01.png"
+        srcset="img/img-main-bg-key-01@2x.png 2x,
+            img/img-main-bg-key-01@3x.png 3x"
+
+        layout="fixed">
     </amp-img>
     <amp-img class="slogan__section__bottom__background"
-             src="images/main-slogan-bottom-bg.png"
-             width="845"
-             height="455"
+            
+            src="images/main-slogan-bottom-bg.png"
+            src="img/img-main-bg-key-02.png"
+            srcset="img/img-main-bg-key-02@2x.png 2x,
+                    img/img-main-bg-key-02@3x.png 3x"
+
+             width="416"
+             height="343"
              layout="fixed">
     </amp-img>
     <amp-img class="slogan__section__right__background"
-             src="images/main-slogan-right-bg.png"
-             width="360"
-             height="470"
+             src="img/img-main-bg-key-03.png"
+             srcset="img/img-main-bg-key-03@2x.png 2x,
+                     img/img-main-bg-key-03@3x.png 3x"             
+             width="248"
+             height="480"
              layout="fixed">
     </amp-img>
 
 
     <amp-img class="slogan__section__title"
-             src="images/main_title.svg"
+             src="img/img-main-title.svg"
              amp-fx="parallax"
              data-parallax-factor="1.2"
-             width="280"
-             height="140"
+             width="714"
+             height="200"
              layout="fixed">
     </amp-img>
     <div class="slogan__section__divider"></div>
     <div class="slogan__section__date">2019. 10. 18</div>
-    <div class="slogan__section__location">코엑스 그랜드볼룸</div>
+    <div class="slogan__section__location">COEX Grand Ballroom</div>
     <div class="slogan__section__triangle"
          amp-fx="parallax"
          data-parallax-factor="1.2"></div>
@@ -916,13 +952,15 @@
 </div>
 
 <!-- speaker -->
-<!--
+
 <div class="session__list">
     <amp-img class="section__bullet"
              width="12"
              height="12"
              layout="fixed"
-             src="images/bullet-title.svg">
+
+            src="img/img-bullet-title.svg"
+    >
     </amp-img>
     <div class="section__title">Session</div>
     <amp-list width="360"
@@ -969,7 +1007,7 @@
         </template>
     </amp-list>
 </div>
--->
+
 <!--speaker detail popup-->
 <!--
 <amp-lightbox id="my-lightbox"
@@ -1041,7 +1079,8 @@
              width="12"
              height="12"
              layout="fixed"
-             src="images/bullet-title.svg">
+            src="img/img-bullet-title.svg"
+            >
     </amp-img>
     <div class="section__title">Sponsors & Partners</div>
 
@@ -1130,7 +1169,8 @@
              width="12"
              height="12"
              layout="fixed"
-             src="images/bullet-title.svg">
+             src="img/img-bullet-title.svg"
+            >
     </amp-img>
     <div class="section__title">Location</div>
     <p class="location__section__address">
@@ -1139,7 +1179,7 @@
         (2호선 삼성역 6번출구에서 도보 5분)<br>
         (9호선 봉은사역 7번출구에서 도보 1분)
     </p>
-    <a href="https://m.map.naver.com/directions/?ename=삼성에스디에스&ex=127.1004294&ey=37.5163217" target="_blank">
+    <a href="https://m.map.naver.com/directions/?ename=코엑스&ex=127.1004294&ey=37.5163217" target="_blank">
         교통정보 보기
     </a>
     <!-- generated by naver map -->
@@ -1199,7 +1239,8 @@
              width="12"
              height="12"
              layout="fixed"
-             src="images/bullet-title.svg">
+             src="img/img-bullet-title.svg"
+            >
     </amp-img>
     <div class="section_cod">
         <div class="section__title">Code of Conduct</div>
