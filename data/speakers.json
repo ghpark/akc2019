@@ -1,76 +1,16 @@
 {
   "items": [
     {
-      "name": "Ahmed Sidky",
-      "company": "Riot Games",
-      "img": "/images/speaker/ahmed.jpg",
-      "sImg": "/images/speaker/ahmed_s.jpg",
+      "name": "Piergiorgio Grossi",
+      "company": "Credem Banca",
+      "img": "/img/speaker/ahmed.jpg",
+      "sImg": "/img/speaker/ahmed_s.jpg",
       "track": "Key Note",
       "time": "10:30 - 11:30",
       "location" : "마젤란홀",
       "color": "magellan",
-      "title": "Mindset & Culture: At the Heart of a Winning Agile Transformation",
+      "title": "Play Agile like an Adult: a story of mistakes from Formula1 to bank",
       "note": "Agile is not a process, nor a methodology it is a Mindset.\nSimilarly, an Agile transformation is not about changing processes, systems or tools, it is about transforming the culture.\nBut how do you transform culture and mindset?\nThis is the key question that Dr. Ahmed Sidky will explore in this talk."
-    },
-    {
-      "name": "이현찬",
-      "company": "삼성SDS",
-      "img": "images/speaker/lee_hc.jpg",
-      "sImg": "images/speaker/lee_hc_s.jpg",
-      "track": "Track 2 : Beyond Agile",
-      "time": "16:30 - 17:15",
-      "location" : "마젤란홀",
-      "color": "magellan",
-      "title": "Doing Agile을 넘어 Being Agile로의 Agile Transformation",
-      "note": "애자일을 새롭게 시작하는 기업은 어떻게 시작해야할지를 고민하고, 애자일을 도입한 기업은 제대로 하고 있는 것인지를 항상 되묻게 됩니다.\n이렇듯 애자일을 기업에 도입한다는 것은 새롭게 시작하는 곳이나 이미 하고 있는 곳 모두에게 쉽지만은 않은 것이 현실입니다.\n이런 고민하는 이들에게 Agile Transformation에 대한 정확한 이해를 통해 기업에 애자일을 보다 나은 방향으로 안착시키는데 필요한 정보를 공유합니다."
-    },
-    {
-      "name": "구기욱",
-      "company": "쿠퍼실리테이션그룹",
-      "img": "images/speaker/koo_gw.jpg",
-      "sImg": "images/speaker/koo_gw_s.jpg",
-      "track": "Track 2 : Beyond Agile",
-      "time": "11:40 - 12:30",
-      "location" : "마젤란홀",
-      "color": "magellan",
-      "title": "한국 문화 속 조직 어질리티 (Organizational Agility in Korean Context)",
-      "note": "VUCA - 변동성(Volatility), 불확실성(Uncertainty), 복잡성(Complexity), 모호성(Ambiguity) - 의 세상에서, 애자일은 이미 당연한 조직 스타일입니다.\n그러나 애자일을 베끼고, 감당하고, 쫓아가는 것은 이미 애자일이 아니게 됩니다.\n반애자일의 한국 문화에서 실현하기 버거운 애자일을 후련하게 구현하는 방법을 다룹니다."
-    },
-    {
-      "name": "조현길",
-      "company": "삼성전자",
-      "img": "images/speaker/cho_hg.jpg",
-      "sImg": "images/speaker/cho_hg_s.jpg",
-      "track": "Track 3 : Dancing with Agile",
-      "time": "13:50 - 15:15",
-      "location" : "다목적홀",
-      "color": "multi",
-      "title": "Decentralized Facilitation in Agile",
-      "note": "애자일, 퍼실리테이션, 탈(脫)시스템화의 연관관계를 살펴보고, 이를 통해 앞으로 변화 될 일하는 환경과 방식을 상상하고 실험해보는 참여형 워크숍입니다.\n\n*본 워크숍은 인원이 한정되어 있습니다.(36명)\n*본 워크숍은 참관이 불가합니다."
-    },
-    {
-      "name": "심상준",
-      "company": "SK(주) C&C",
-      "img": "images/speaker/shim_sj.jpg",
-      "sImg": "images/speaker/shim_sj_s.jpg",
-      "track": "Track 1 : Becoming Agile",
-      "time": "14:30 - 15:15",
-      "location" : "파스칼홀",
-      "color": "pascal",
-      "title": "SI 프로젝트에서 Agile 적용이 가능한가?",
-      "note": "SI 프로젝트에서의 Agile 적용은 실패한다는 의견이 많았지만, 4차 산업혁명이 본격화되면서 SI 프로젝트에서도 경쟁력을 높이기 위한 방법으로 Agile에 대한 관심도가 높아지고 있습니다.\nSI 프로젝트 환경에서 Agile을 효율적으로 적용하고자 한 다양한 시도들과 그 한계점, 향후 발전 방안에 대해 다룹니다."
-    },
-    {
-      "name": "김유진",
-      "company": "Electronic Arts (EA)",
-      "img": "images/speaker/kim_yj.jpg",
-      "sImg": "images/speaker/kim_yj_s.jpg",
-      "track": "Track 1 : Becoming Agile",
-      "time": "16:30 - 17:15",
-      "location" : "파스칼홀",
-      "color": "pascal",
-      "title": "Journey from scrum junior to scrum master",
-      "note": "애자일 초심자가 스크럼 마스터로 성장하기 위해서는 역할에 대한 정확한 이해와 \"성장 마인드셋\"이 필수적입니다.\n또한 본인과 조직의 성장을 추구하는 과정에서 필연적으로 찾아오는 실패를 어떻게 이용하느냐 또한 매우 중요합니다.\n진정한 스크럼 마스터로의 길을 묵묵히 걸어가고 있는 애자일 초심자들을 위한 애자일 여행 가이드를 공유합니다."
     }
   ]
 }
